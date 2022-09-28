@@ -1,0 +1,71 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.head{
+    background: url("media/red_photo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #ab000b;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    flex-wrap: wrap;
+}
+.title-box{
+    width: 100%;
+    display: flex;
+}
+.head-title{
+    margin: 7.5rem auto;
+    color: #eee;
+    transition: 0s;
+    
+    padding: 0px;
+}
+.main{
+    width: 60vw;
+    margin: 1rem auto;
+    font-size:large;
+}
+.nav-panel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color:#eee;
+    
+    
+}
+button{
+    all:unset;
+}
+.nav-button{
+    flex-wrap: wrap;
+    padding: 5pt 15pt;
+    transition-duration: 0.25s;
+    background-color: #00000033;
+   
+
+}
+.nav-button:hover{
+    color: #fff;
+    background-color: #000000bb;
+    border-radius: 0.75rem  0.75rem 0 0;
+}
+.scroll{
+    height: 15rem;
+    display: flex;
+}
+.main-img{
+    height: 50%;
+    margin: auto;
+}
