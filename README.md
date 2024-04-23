@@ -1,2 +1,2 @@
 # KNU
-https://maxduh.github.io/KNU/
+https://themngn.github.io/KNU/
